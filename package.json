@@ -1,12 +1,10 @@
 {
   "name": "webpack-multi-starter-kit",
   "version": "1.0.0",
-  "description": "EDgram por EDteam. Aplicación Web Progresiva inspirada en Instagram con fines educativos.",
+  "description":
+    "EDgram por EDteam. Aplicación Web Progresiva inspirada en Instagram con fines educativos.",
   "main": "src/index.js",
-  "browserslist": [
-    "> 5%",
-    "ie > 10"
-  ],
+  "browserslist": ["> 5%", "ie > 10"],
   "scripts": {
     "dev": "webpack -d --watch --colors",
     "prod": "webpack -p",
@@ -15,7 +13,7 @@
     "preview": "npm run build && webpack-dev-server --colors",
     "start": "webpack-dev-server --colors --config webpack.config.dev.js"
   },
-  "author": "Jonathan MirCha <jonmircha@gmail.com>",
+  "author": "Joseph Ospina Tafur",
   "license": "MIT",
   "devDependencies": {
     "autoprefixer": "^7.1.2",
